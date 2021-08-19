@@ -41,7 +41,7 @@ class Contact extends Component {
           <div className="col-12 col-md-7">
             <Form onSubmit={this.handleSubmit}>
               <FormGroup row>
-                <Label html For="firstname" md={2}>First Name</Label>
+                <Label htmlFor="firstname" md={2}>First Name</Label>
                   <Col md={10}>
                     <Input 
                     type="text" 
@@ -54,7 +54,7 @@ class Contact extends Component {
               </FormGroup>
 
               <FormGroup row>
-                <Label html For="lastname" md={2}>Last Name</Label>
+                <Label htmlFor="lastname" md={2}>Last Name</Label>
                   <Col md={10}>
                     <Input 
                     type="text" 
@@ -67,7 +67,7 @@ class Contact extends Component {
               </FormGroup>
 
               <FormGroup row>
-                <Label html For="telnum" md={2}>Contact Tel.</Label>
+                <Label htmlFor="telnum" md={2}>Contact Tel.</Label>
                   <Col md={10}>
                     <Input 
                     type="tel" 
@@ -81,7 +81,7 @@ class Contact extends Component {
               </FormGroup>
 
               <FormGroup row>
-                <Label html For="email" md={2}>Email</Label>
+                <Label htmlFor="email" md={2}>Email</Label>
                   <Col md={10}>
                     <Input 
                     type="email" 
