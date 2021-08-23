@@ -37,7 +37,7 @@ const DISHES = [
         label: '',
         price: '170',
         featured: false,
-        description: 'A delectable, semi-sweet New York Style Cheese Cake, with cracker crust and spiced with Indian cardamoms',
+        description: 'A delectable, semi-sweet New York Style Cheese Cake, with cracker crust and spiced with Indian  special cardamoms',
     }
 ]
 
