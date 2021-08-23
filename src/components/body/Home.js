@@ -4,7 +4,7 @@ class Home extends Component {
     document.title="Sarker's Restaurant";
     return(
       <div>
-
+      <h1>Home</h1>
       </div>
       );
   }
