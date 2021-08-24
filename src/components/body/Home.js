@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import {connect} from 'react-redux';
+import Loading from './Loading';
 
 const mapStateToProps=(state)=>{
   //console.log("mapStateToProps",state);
@@ -26,7 +27,7 @@ class Home extends Component {
     document.title="Sarker's Restaurant";
     return(
       <div>
-      <h1>Home</h1>
+      <Loading/>
       </div>
       );
   }
