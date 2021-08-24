@@ -2,15 +2,15 @@ import React, {Component} from 'react';
 import {connect} from 'react-redux';
 
 const mapStateToProps=(state)=>{
-  console.log("mapStateToProps",state);
+  //console.log("mapStateToProps",state);
   return{
     a:state.dishes
   }
 }
 class Home extends Component {
   componentDidMount(){
-    console.log("Home State:",this.state);
-    console.log("Home Props:",this.props);
+    //console.log("Home State:",this.state);
+    //console.log("Home Props:",this.props);
 
     this.props.dispatch({
       type:'TEST',
@@ -18,7 +18,7 @@ class Home extends Component {
     })
   }
   componentDidUpdate(){
-    console.log("Home Props Updated:",this.props);
+    //console.log("Home Props Updated:",this.props);
   }
 
   

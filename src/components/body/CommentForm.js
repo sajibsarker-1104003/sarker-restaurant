@@ -31,7 +31,7 @@ class CommentForm extends Component{
     event.preventDefault();
   }
   render(){
-    console.log(this.props);
+    //console.log(this.props);
     return(
       <div>
        <Form onSubmit={this.handleSubmit}>

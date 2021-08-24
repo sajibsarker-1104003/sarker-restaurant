@@ -1,7 +1,7 @@
 import React from 'react';
 import {Card,CardImg,CardImgOverlay,CardBody,CardTitle,} from 'reactstrap';
 const MenuItem=props=>{
-  console.log(props);
+  //console.log(props);
   return(
     <div>
       <Card style={{margin:"10px"}}>
