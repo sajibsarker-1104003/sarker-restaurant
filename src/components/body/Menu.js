@@ -6,6 +6,7 @@ import {connect} from 'react-redux';
 import {addComment,fetchDishes} from '../../redux/actionCreators';
 import Loading from './Loading';
 
+
 const mapStateToProps=state=>{
   return{
     dishes:state.dishes,
