@@ -44,10 +44,11 @@ switch(action.type){
     case actionTypes.ADD_COMMENT:
       let comment=action.payload;
     //console.log(comment);
-    comment.id=commentState.length;
-    comment.date=new Date().toDateString();
-    return commentState.concat(comment);
-    default:
+    return {
+      ...commentState,
+      comments:commentState.comments.concat(comment)
+    };
+      default:
       return commentState;
   } 
 }
